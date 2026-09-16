@@ -14,17 +14,23 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> <type>/<short-description>
+Where `<type>` is one of: `feature`, `fix`, `docs`, `chore`.
+e.g. docs/add-yomna
+
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> <type>: <short summary>
+
+> <optional longer description>
+> e.g. docs: add name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> The project expects a related task/issue to be linked in the PR description.
 
 ---
 
@@ -33,7 +39,10 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/YOMNA-MAHSOOB/Practice-Repository (fetch)
+> origin  https://github.com/YOMNA-MAHSOOB/Practice-Repository (push)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository (fetch)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository (push)
 
 ---
 
@@ -42,7 +51,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 2a98d01 (HEAD -> docs/add-yomna, origin/docs/add-yomna) docs: add name to contributors list
+> 3b30f00 (upstream/main, origin/main, origin/HEAD, main) Clarify task labeling in README
+> f5ecf54 Revise task assignment instructions in README
+>  Yes. My commit message follows the Conventional Commits format and uses the `docs` type
 
 ---
 
