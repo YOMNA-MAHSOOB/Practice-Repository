@@ -62,11 +62,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> The conflict was caused by both my branch and upstream/conflict-practice modifying the same part of CONTRIBUTORS.md. The conflict involved the lines where the contributors were being added.
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> I removed the <<<<<<<, =======, and >>>>>>> conflict markers
 
 ---
 
@@ -75,7 +75,7 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> [Your answer here.](https://github.com/IbrahimYasserM/Practice-Repository/pull/4)
 
 ---
 
@@ -84,10 +84,16 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> contributions.md , questions.md
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> fork: A fork is my own copy of a GitHub repository on my GitHub account.
+
+> clone: A clone is a local copy of a repository on my computer that I can work on.
+
+> origin: origin is the remote repository my local project is connected to, which in this workflow is my fork.
+
+> upstream: upstream is the remote pointing to the original repository, which allows me to fetch updates and branches from it.
