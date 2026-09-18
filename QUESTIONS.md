@@ -14,17 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> <type>/<short-description>
-Where `<type>` is one of: `feature`, `fix`, `docs`, `chore`.
-e.g. docs/add-yomna
+> "  type / short-description"
+> Where `<type>` is one of: `feature`, `fix`, `docs`, `chore`.
+> e.g. docs/add-yomna
 
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> <type>: <short summary>
+> "type>: short summary"
 
-> <optional longer description>
+> "optional longer description"
 > e.g. docs: add name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
